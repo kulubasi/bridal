@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 15, 2023 at 10:52 PM
+-- Generation Time: Jun 07, 2023 at 08:25 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -93,6 +93,7 @@ CREATE TABLE `users` (
   `lname` varchar(50) NOT NULL,
   `phone` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `usertype` varchar(255) NOT NULL,
   `pswd` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -100,8 +101,10 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `fname`, `lname`, `phone`, `email`, `pswd`) VALUES
-(1, 'Esamal', 'Samuel', '', 'esacreed4@gmail.com', '1234');
+INSERT INTO `users` (`id`, `fname`, `lname`, `phone`, `email`, `usertype`, `pswd`) VALUES
+(3, 'test', 'tester', '0786508231', 'test@gmail.com', 'subadmin', '4d42bf9c18cb04139f918ff0ae68f8a0'),
+(4, 'Esamal', 'Samuel', '0789345671', 'esacreed4@gmail.com', 'admin', '81dc9bdb52d04dc20036dbd8313ed055'),
+(5, 'jimmy', 'Emwaku', '0765453423', 'jimmy@gmail.com', 'subadmin', 'c226def72925fed395e52a7148944b32');
 
 --
 -- Indexes for dumped tables
@@ -181,7 +184,7 @@ ALTER TABLE `nails`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
