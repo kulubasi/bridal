@@ -16,9 +16,9 @@ a {
   transition: .3s all ease; }
   a, a:hover {
     text-decoration: none !important; }
-
+/*
 .content {
-  padding: 7rem 0; }
+  padding: 7rem 0; }*/
 
 h2 {
   font-size: 20px; }
@@ -77,3 +77,6 @@ h2 {
   .ms-options-wrap > .ms-options > ul li:hover label {
     border: none;
     background: #f7f7f7; }
+
+.leftside-menu{background-color: red;}
+.logua{background-image: linear-gradient(to right, red , yellow);}

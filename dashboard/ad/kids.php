@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
                                     </div>
 
                                     <div class="form-group">
-                                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" class="btn text-white" style="background-color:#97001a;">Submit</button>
                                     </div>
                                 </form>
                             </div>

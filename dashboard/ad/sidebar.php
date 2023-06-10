@@ -1,12 +1,6 @@
 <div class="wrapper" >
     <!-- ========== Left Sidebar Start ========== -->
-    <div class="leftside-menu bg-light" >
-        <a href="dashboard.php" class="logo text-center logo-light p-2 " style="color: white;">
-            <span class="logo-lg bg-light">
-                <h3>Sparkles Salon</h3>
-            </span>
-
-        </a>
+    <div class="leftside-menu bg-light"  >
 
         <div class="h-100" id="leftside-menu-container" data-simplebar="">
 
@@ -23,13 +17,6 @@
                 </li>
 
                 <li class="side-nav-title side-nav-item">Pages</li>
-
-                <li class="side-nav-item">
-                    <a href="#" class="side-nav-link">
-                        <i class="uil-atm-card"></i>
-                        <span> Comments </span>
-                    </a>
-                </li>
 
 
                 <li class="side-nav-item">
@@ -62,13 +49,6 @@
                     <a href="hairdressing.php" class="side-nav-link">
                         <i class="uil-basketball"></i>
                         <span>Hair Dressing </span>
-                    </a>
-                </li>
-
-                <li class="side-nav-item">
-                    <a href="#" class="side-nav-link">
-                        <i class="uil-football"></i>
-                        <span> Services</span>
                     </a>
                 </li>
 

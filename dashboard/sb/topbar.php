@@ -4,7 +4,7 @@
         <li class="dropdown notification-list">
             <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                 <span class="account-user-avatar">
-                    <i class="las la-user-circle la-2x" style="color: #0492c2;"></i>
+                    <i class="las la-user-circle la-2x" style="color: #97001a;"></i>
                 </span>
                 <span>
                     
@@ -35,7 +35,7 @@
             <div class="input-group">
                 <input type="text" class="form-control dropdown-toggle" placeholder="Search..." id="top-search">
                 <span class="mdi mdi-magnify search-icon"></span>
-                <button class="input-group-text btn-primary" type="submit">Search</button>
+                <button class="input-group-text text-white" style="background-color:#97001a;" type="submit">Search</button>
             </div>
         </form>
     </div>

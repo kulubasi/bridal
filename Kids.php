@@ -105,7 +105,7 @@
                         }
                             while($row = mysqli_fetch_assoc($result)){?>
                             <div class="col-md-4 port-grids view w3layouts-view">
-                                <a class="agile-w3link" href="images/f19.jpg" data-lightbox="example-set" data-title="">
+                                <a class="agile-w3link" href="<?php echo $row['image']; ?>" data-lightbox="example-set" data-title="">
                                     <img src="<?php echo $row['image']; ?>" class="img-responsive" alt=""/>
                                 <div class="maskw3ls w3-agile">
                                     <p><?php echo $row['descri']; ?></p>
