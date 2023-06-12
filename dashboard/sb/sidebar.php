@@ -52,14 +52,6 @@
                     </a>
                 </li>
 
-                <li class="side-nav-item">
-                    <a  href="settings.php"  class="side-nav-link">
-                        <i class="dripicons-gear"></i>
-                        <span> Settings </span>
-                    </a>
-                    
-                </li>
-
                 <!-- <li class="side-nav-item">
                     <a data-bs-toggle="collapse" href="#transfer" aria-expanded="false" aria-controls="transfer" class="side-nav-link">
                         <i class="dripicons-link"></i>
